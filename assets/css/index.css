@@ -8,10 +8,6 @@ body {
   padding: 0px;
   overflow-x: hidden; */
 }
-header {
-  width: 100%;
-  margin: 0 auto 0 auto;
-}
 
 h1 {
   font-family: "Spectral", serif;
@@ -62,18 +58,22 @@ nav img {
   padding: 10px 20px;
 }
 .hero {
-  /* background-image: url("../imgs/svg/m.svg");
-  background-repeat: no-repeat;
-  background-position: ; */
-  padding: 20px;
+  height: 40vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   border-bottom: 1px solid black;
 }
 .hero * {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
 }
+.hero > div {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .hero h1 {
   font-size: 4em;
 }
@@ -81,6 +81,9 @@ nav img {
   max-width: 200px;
   width: 40%;
   text-align: center;
+}
+.hero img {
+  width: 50%;
 }
 main {
   margin-top: 35px;
@@ -238,6 +241,9 @@ articles {
     font-size: 1.1em;
   }
   .links {
+    display: none;
+  }
+  .hero img {
     display: none;
   }
   .btn-start {
