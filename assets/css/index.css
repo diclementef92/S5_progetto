@@ -35,31 +35,36 @@ nav,
 nav {
   border-bottom: #191919 solid 1px;
   padding: 30px;
-
+  height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 nav span {
   cursor: pointer;
   margin-right: 10px;
 }
-nav img {
-  /* position: fixed;
-  top: 30px;
-  left: 30px; */
+.nav-scrolled {
+  background-color: white;
 }
 .btn-start {
   background-color: #191919;
   color: white;
   border-radius: 30px;
   padding: 10px 20px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.btn-start-scrolled {
+  background-color: green;
 }
 .hero {
-  height: 50vh;
+  height: 300px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -196,16 +201,16 @@ articles {
   align-items: center;
 }
 .article > img {
-  width: 30%;
-  max-width: 300px;
+  width: 40vw;
+  max-width: 250px;
 }
 
 .article .description {
   margin-bottom: 10px;
-  /* height: 2em; */
-  /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+  width: 40vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .badge {
   padding: 5px 10px;
