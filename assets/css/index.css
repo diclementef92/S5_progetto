@@ -16,6 +16,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 0.8em;
 }
 hr {
   opacity: 0.3;
@@ -58,10 +59,11 @@ nav img {
   padding: 10px 20px;
 }
 .hero {
-  height: 40vh;
+  height: 50vh;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  overflow: hidden;
 }
 .hero * {
   /* margin-top: 20px;
@@ -83,12 +85,14 @@ nav img {
   text-align: center;
 }
 .hero img {
-  width: 50%;
+  /* width: 50%; */
+  /* overflow: hidden; */
 }
 main {
-  margin-top: 35px;
-  margin-left: 20px;
   width: 90%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .trend {
@@ -212,27 +216,23 @@ articles {
   justify-self: flex-end;
 }
 @media screen and (min-width: 1200px) {
-  /* body {
-    width: 80%;
-    width: 100%;
-    margin: 0 auto 0 auto;
-  } */
+  .section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .section > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+  }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 720px) {
   body {
     font-size: 1.2em;
-  }
-  .special {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  .special > div {
-    display: flex;
-    flex-direction: column;
   }
 }
 /* TABLET */
