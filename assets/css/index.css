@@ -200,6 +200,7 @@ articles {
   justify-content: space-between;
   align-items: center;
 }
+
 .article > img {
   width: 40vw;
   max-width: 250px;
@@ -207,7 +208,7 @@ articles {
 
 .article .description {
   margin-bottom: 10px;
-  width: 40vw;
+  width: 30vw;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -230,7 +231,7 @@ articles {
   .section > div {
     display: flex;
     flex-direction: column;
-    margin-left: 20vw;
+    margin-left: 10vw;
   }
 }
 
