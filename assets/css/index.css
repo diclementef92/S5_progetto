@@ -70,10 +70,7 @@ nav span {
   border-bottom: 1px solid black;
   overflow: hidden;
 }
-.hero * {
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
-}
+
 .hero > div {
   padding: 20px;
   display: flex;
@@ -89,10 +86,7 @@ nav span {
   width: 40%;
   text-align: center;
 }
-.hero img {
-  /* width: 50%; */
-  /* overflow: hidden; */
-}
+
 main {
   width: 90%;
   margin-top: 35px;
@@ -114,9 +108,7 @@ main {
   /* flex-wrap: wrap; */
   /* justify-content: flex-start; */
 }
-.discover {
-  /* margin-top: 40px; */
-}
+
 /* COMPONENTS FOR ARTICLES */
 .num {
   font-size: 2em;
