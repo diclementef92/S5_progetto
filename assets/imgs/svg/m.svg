@@ -1176,7 +1176,8 @@
                     transform="matrix(1,0,0,1,59.95399475097656,-107.50430297851562)" opacity="0"
                     style="display: inherit;">
                     <g transform="scale(0.22,0.22)">
-                        <g style="display: none;"></g>
+                        <g style="display: none;">
+                        </g>
                     </g>
                 </g>
                 <g stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4"
